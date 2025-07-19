@@ -38,7 +38,7 @@ int main()
 #endif
 
 //webcam
-
+#if 1
 int main()
 {
 	VideoCapture cap(0); // Open the default camera (0) for multiple cameras use 0/1 etc
@@ -55,3 +55,4 @@ int main()
 		}
 	}
 }
+#endif
